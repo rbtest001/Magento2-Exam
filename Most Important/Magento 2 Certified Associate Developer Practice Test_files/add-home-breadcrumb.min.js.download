@@ -1,0 +1,1 @@
+define(['jquery','Magento_Theme/js/model/breadcrumb-list','mage/translate'],function($,breadcrumbList){'use strict';var homeCrumb=function(){return{name:'home',label:$.mage.__('Home'),title:$.mage.__('Go to Home Page'),link:BASE_URL||''};};return function(breadcrumb){breadcrumbList.unshift(homeCrumb());return breadcrumb;};});

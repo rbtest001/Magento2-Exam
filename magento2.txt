@@ -1,0 +1,339 @@
+git@github.com:rajusadadiya/testMage.git
+https://github.com/rajusadadiya/testMage.git
+
+Sister Nivedita Foundation - 56390003395
+
+
+Livecopy (not working)
+Host : jsktechnolab.com
+Username : ourtaberna@jsktechnolab.com
+PWD : RPuxvfbXowqK
+
+37.97.131.157	ourtaberna-en.jsktech.feathertest.com
+-----------------------------------------------------
+customer login : chirag@jsktechnolab.com / chirag@123
+Admin URL : http://ourtaberna.jsktechnolab.com/area51
+admin/B03r3nB3d2016!
+++++++++++++++++++++++++++++++++++
+live:m1
+HOST : 37.97.234.31
+User : mukesh@ourtaberna.co.uk
+PWD : YAkoQTZH5%5x
+
+DB
+<username>ourtaber_v1_user</username>
+<password>7BcdpJYKd7K}</password>
+<dbname>ourtaber_v1</dbname>
+
+adminer-4.6.3.php
+
+
+
+
+live
+http://ourtaberna.com
+http://ourtaberna.com/phpmyadmin
+ourtaberna/0Urtab3rna!
+
+ketan.magneto@gmail.com
+
+++++++++++++++++++++++++++++++++++
+development:m2
+H:37.97.131.157
+U:jsktech
+P:h3ll0guys!
+
+ssh jsktech@37.97.131.157
+
+cPanel
+http://jsktechnolab.com/cpanel
+jsksofttech
+jSk22@!@#
+
+
+Database
+'db' => [
+        'table_prefix' => '',
+        'connection' => [
+            'default' => [
+                'host' => 'localhost',
+                'dbname' => 'featherdown_magento',
+                'username' => 'root',
+                'password' => 'Geheim33!',
+                'active' => '1'
+            ]
+        ]
+    ],
+
+
++++++++++++++++++++++++++++++
+
+customers
+suppliers (farmer group)
+products (all basic info, sku, description (in all lang), price, image url, category
+product category
+
+import all customer data from the FARMER group, rename this Farmer group to "suppliers"
+import all catalog categories
+import all catalog including categories
+setup the credit module
+create the supplier customer frontend "dashboard" (or profile) page (where they can request credit budget, see order status, see hidden catalog inventory, etc like now).
+don't setup the "theme/style" we do this later.
+don't install additional paymethods (we don't need them, we only use the credit point method)
+don't install any additional delivery (we don't need them, we deliver from our own warehouse).
+don't install the multiware house.
+investigate time needed to install this module https://rentalbookingsoftware.com/
+import old catalog all languges
+in new shop maintain NL, DE, FR and EN language
+
+
+
+Deployment Of Magento 1 Data to CSV Formate
+
+1) Change product attribute description as product list as well as product view
+2) Disable flat table (Configuration > Catalog > Catalog > Frontent > Use Flat Catalog Product : NO)
+
+
+http://ourtaberna-en.jsktech.feathertest.com/area51 jsktech/welcome123
+
+
+Issue : Duplicating product copies product images couple of hundred times
+
+git url : https://github.com/magento/magento2/issues/9466
+
+I have check and debug this issue. and find problem to \Magento\Catalog\Model\Product\Copier Model class
+
+
+http://ourtaberna-en.jsktech.feathertest.com/area51 jsktech/welcome123
+
+----------------------------------------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Website Functions
+
+Website to be designed with similar functionalities as Alamy.com
+	Search Function
+	- Product Search Function
+	- Search Keywords within Product Titles
+	Products
+	- Upload-able Via CSV
+	- Pull Product Listings & Images from CSV Upload
+
+	Client Area
+	- Login / Sign up area
+	 - 3 different membership options [Guest, Standard. Commercial]
+	 - Guest users will be able to purchase images and download immediately with
+		
+		basic information
+		 - Standard users will be able to add as many images to there cart as they wish
+		and then checkout at the end. User dashboard will showcase there purchase history.
+		 - Commercial accounts will be able to download as many images they like and
+		instead of making payment upon checkout they will pay by invoice every month.
+		Commercial accounts must have a debit/credit card on file before having the facility
+		to download images
+		Checkout Feature
+		- Check out / Cart function [All payment types accepted + Paypal]
+		- Add favourite images to Image Box [Wishlist] - Standard accounts and commercial
+		accounts can access there Image Box within their customer dashboard.
+		- Image License Types [similar to alamy.com, each image will have a different
+		license type that customers can select, each license type will have a different price.
+		This advises the users what the image can be used for. Once the image has been
+		paid for, it will be downloaded immediately for the user
+
+	Admin Image Manager
+	- Admin would like to have an image management dashboard [as they sometimes
+	may be uploading thousands of images per time] that allows them to simply add and
+	remove images.
+	- Once images are uploaded, we would like to have a script that automatically
+	categorises the tags for the image [Please take a look at Tensor Flow Image
+	recognition]
+	- Water Mark Images across site and protect
+	For example:
+	We upload an image of a woman in a black dress and the website then populates the 
+	tags for the image that are relevant, e.g in this case…
+	woman, dress, black dress, female, clothes etc etc.
+	- Only admin will have the ability to upload photos to this website, we would not
+	like to have a contributor function like alamy.com
+	Actual Website
+	Web Platform that can handle 3M+ Product/images
+	Allow Mass Product Upload for Bulk Upload of Products
+	Fully Mobile Responsive
+	Needs To Follow Website Design Mockup to Exact Design
+	Lightweight, and fast for user experience
+
+	Hosting Info
+	3M+ Images Need To Be Uploaded Direct To Server
+	Provide Us With Image Paths
+	We Will Compile CSV of all products/Images to upload direct to Magento
+	Low Traffic Estimated initially [Will increase]
+	
+	Hosting Requirements
+	VPS or Dedicated
+	10TB Storage
+	Good Speed
+	Cold Storage Ba
+	ckup
+	Budget $750 Per Month 
+
+
+
+
+	Magento 2
+	https://www.templatemonster.com/magento-themes/bakerix-bakery-cakes-responsive-magento-theme-62282.html
+
+	Magento 2
+	https://www.templatemonster.com/magento-themes/saturnino-pizza-responsive-magento-theme-58961.html
+
+	Magento 1
+	http://demo4coder.com/magento1/bakerop/index.php/?___store=default
+
+	Cake Websites
+	http://www.beverlysbakery.com/
+	https://hummingbirdbakery.com/
+
+
+git clone https://rsadadiya@bitbucket.org/rsadadiya/easycomp.git
+
+
+php bin/magento i18n:pack -m replace app/i18n/KanhaSoft/nn_no/nn_NO.csv nn_NO
+php bin/magento setup:static-content:deploy nb_NO
+php bin/magento cache:flush
+
+
+kanha------
+
+test Server
+Server Login
+Link: https://cpanel31.proisp.no:2083
+Username: easyfdhb
+Password: NCvYCd49DjEk+7
+
+ssh easyfdhb@cpanel31.proisp.no
+Password: NCvYCd49DjEk+7
+
+
+FTP Login
+FTP details:
+ Host: cpanel31.proisp.no
+ Port: 21
+ Username: easyfdhb
+ Password: NCvYCd49DjEk+7
+
+Live Server
+
+Live server installation steps
+
+                Database access details
+
+Current access
+
+Url : http://213.162.241.169/phpmyadmin
+Username : root
+Password : easy@!fodmap
+ 
+Website access details
+Url : http://213.162.241.169/
+Admin : http://213.162.241.169/admin
+Username : admin
+Password : admin@123
+ 
+Attachments area
+
+
+
+MINEBUY1GET1
+
+
+
+<type name="Magento\Directory\Model\Currency">
+        <plugin name="kanhasoft_curreny" type="Kanhasoft\Customization\Plugin\Directory\Currency" />
+    </type>
+
+
+<?php
+namespace Kanhasoft\Customization\Plugin\Directory;
+use Magento\Framework\Exception\InputException;
+
+class Currency
+{
+    public function aroundConvert($subject, $proceed, $price, $toCurrency = null)
+    {
+        //$price = round($price);
+        $price = $proceed($price, $toCurrency);
+        return $price;
+    }
+}
+
+
+
+Bambora Live account key
+ENCODED API KEY
+NGI0cHpKd1NZRWxMc0VnQTlVYjk=
+
+SECRET KEY
+RMpD3Ps7lAXyG8k2BLf9z7jEn8odvjyuf1GHKPK8
+
+ACCESS KEY
+4b4pzJwSYElLsEgA9Ub9
+
+MERCHANT NUMBER
+P278656102
+
+MD5 KEY
+jwfjG5P7dL
+
+
+0RaDauyjf2fFKr25nXal
+
+
+http://www.ourtaberna.co.uk/
+http://127.0.0.1/magec1/
+
+www.ourtaberna.co.uk
+magec1
+www.ourtaberna.fr
+magec1fr
+www.ourtaberna.nl
+magec1nl
+www.ourtaberna.de
+magec1de
+
+
+http://www.ourtaberna.fr/
+http://127.0.0.1/magec1/fr/
+
+http://www.ourtaberna.nl/
+http://127.0.0.1/magec1/nl/
+
+http://www.ourtaberna.de/
+http://127.0.0.1/magec1/de/
+
+
+http://ourtaberna-en.jsktech.feathertest.com/
+http://127.0.0.1/magec2/
+http://ourtaberna-de.jsktech.feathertest.com/
+http://127.0.0.1/magec2/de/
+http://ourtaberna-fr.jsktech.feathertest.com/
+http://127.0.0.1/magec2/fr/
+http://ourtaberna-nl.jsktech.feathertest.com/
+http://127.0.0.1/magec2/nl/
+
+https://test.evertdf.feathertest.com/
+http://127.0.0.1/magec2/
+
+
+step 4 : php bin/magento migrate:settings --reset vendor/magento/data-migration-tool/etc/opensource-to-opensource/1.9.3.6/config.xml
+
+step 5 : php bin/magento migrate:data -a vendor/magento/data-migration-tool/etc/opensource-to-opensource/1.9.3.6/config.xml
+
+/usr/bin/php7.0 /usr/local/bin/composer require magento/data-migration-tool:2.2.6
+
+/usr/bin/php7.0 bin/magento migrate:settings --reset vendor/magento/data-migration-tool/etc/opensource-to-opensource/1.9.0.1/config.xml
+
+/usr/bin/php7.0 bin/magento migrate:data -a vendor/magento/data-migration-tool/etc/opensource-to-opensource/1.9.0.1/config.xml
+
+
+Bank name : BANK OF BARODA
+ACCOUNT HOLDER NAME : MISS MAMTA GORDHANBHAI SOLANKI
+AC NO : 23240100008762
+
+IFSC CODE : BARB0LILAPU
